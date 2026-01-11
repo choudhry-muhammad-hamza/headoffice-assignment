@@ -1,0 +1,12 @@
+.logo {
+    height: 60px;
+    width: 60px;
+    border: 1px solid #11ff00;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+body.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
