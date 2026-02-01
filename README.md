@@ -1,16 +1,67 @@
-# React + Vite
+# Product Catalog – Mini E-Commerce Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **mini e-commerce product catalog** built using **React** and **Bootstrap** as part of an assignment.  
+The goal of this assignment was to practice **component-based architecture**, **props**, **hooks**, and **responsive UI design**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📋 Assignment Requirements
 
-## React Compiler
+The following requirements were given for this assignment:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Create a header component with a brand logo  
+2. Display a list of products (image, name, price, description)  
+3. Use a hardcoded array of minimum 10 products stored in a constants file  
+4. Create a reusable `ProductCard` component and pass data via props  
+5. Use Bootstrap grid system to display products in cards  
+6. Add a “Like” button on each product card  
+7. Show a message “You liked this product” on clicking the Like button  
+8. Use `useEffect` hook to log “Catalog Loaded” in the console  
+9. Add a search bar to filter products by name  
+10. Add a footer with a copyright message  
+11. Make the webpage fully responsive
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✅ Features Implemented
+
+- Header component with brand logo
+- Product catalog with 10+ products
+- Reusable `ProductCard` component
+- Product data managed using props
+- Bootstrap cards and grid layout
+- Like button with user feedback message
+- `useEffect` hook for catalog load logging
+- Search functionality to filter products by name
+- Responsive layout:
+- 4 cards per row on large screens
+- 1 card per row (12 columns) on mobile screens
+- Footer component at the bottom of the page
+
+---
+
+## 🛠️ Technologies Used
+
+- React
+- Vite
+- JavaScript (ES6)
+- Bootstrap
+- HTML5
+- CSS3
+
+---
+
+## 🧠 What I Learned
+
+- Building reusable React components
+- Passing data using props
+- Using `useEffect` hook
+- Implementing search/filter functionality
+- Responsive UI using Bootstrap grid system
+- Organizing project files professionally
+
+--- 
+
+
+## 👤 Author
+Muhammad Hamza
